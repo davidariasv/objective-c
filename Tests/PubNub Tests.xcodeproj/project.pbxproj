@@ -20,6 +20,7 @@
 		51F7AAC91B28B3E200BEDA1F /* PNSubscribeTests.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 51F7AAC81B28B3E200BEDA1F /* PNSubscribeTests.bundle */; };
 		9604EE9F1B346CD9009EB15C /* PNPublishWithHistoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9604EE9E1B346CD9009EB15C /* PNPublishWithHistoryTests.m */; };
 		9604EEA11B34953B009EB15C /* PNPublishWithHistoryTests.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9604EEA01B34953A009EB15C /* PNPublishWithHistoryTests.bundle */; };
+		962C06241B4187EE00922282 /* PNAPNSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 962C06231B4187EE00922282 /* PNAPNSTests.m */; };
 		96F519851B3869A900053FB7 /* PNPublishCompressedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F519841B3869A900053FB7 /* PNPublishCompressedTests.m */; };
 		96F519871B3878AB00053FB7 /* PNPublishCompressedTests.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 96F519861B3878AB00053FB7 /* PNPublishCompressedTests.bundle */; };
 		96F519891B387F4E00053FB7 /* PNPublishWithMobilePayloadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F519881B387F4E00053FB7 /* PNPublishWithMobilePayloadTests.m */; };
@@ -63,6 +64,7 @@
 		6F1E7CCB0F5454CF57A04DA9 /* Pods-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios/Pods-ios.release.xcconfig"; sourceTree = "<group>"; };
 		9604EE9E1B346CD9009EB15C /* PNPublishWithHistoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNPublishWithHistoryTests.m; sourceTree = "<group>"; };
 		9604EEA01B34953A009EB15C /* PNPublishWithHistoryTests.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PNPublishWithHistoryTests.bundle; sourceTree = "<group>"; };
+		962C06231B4187EE00922282 /* PNAPNSTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNAPNSTests.m; sourceTree = "<group>"; };
 		96F519841B3869A900053FB7 /* PNPublishCompressedTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNPublishCompressedTests.m; sourceTree = "<group>"; };
 		96F519861B3878AB00053FB7 /* PNPublishCompressedTests.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PNPublishCompressedTests.bundle; sourceTree = "<group>"; };
 		96F519881B387F4E00053FB7 /* PNPublishWithMobilePayloadTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNPublishWithMobilePayloadTests.m; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 				96F519921B3B508000053FB7 /* PNPublishSizeOfMessage.m */,
 				1721D3B51B39F57D0018CF00 /* PNHistoryTests.m */,
 				97A8620B1B41448100C07193 /* PNClientConfigurationTests.m */,
+				962C06231B4187EE00922282 /* PNAPNSTests.m */,
 				178251201B30AAE6006BC234 /* Base Test Classes */,
 				51F7AAC11B27AD7400BEDA1F /* Fixtures */,
 				519C32801B20C11500FAC283 /* Supporting Files */,
@@ -349,6 +352,7 @@
 			files = (
 				96F519851B3869A900053FB7 /* PNPublishCompressedTests.m in Sources */,
 				97FA41F31B2FF518003B9B57 /* PNPublishTests.m in Sources */,
+				962C06241B4187EE00922282 /* PNAPNSTests.m in Sources */,
 				1736E1A41B30F2C00077B2E7 /* PNChannelGroupTests.m in Sources */,
 				96F519931B3B508000053FB7 /* PNPublishSizeOfMessage.m in Sources */,
 				97A862121B415A5B00C07193 /* PNClientStateChannelTests.m in Sources */,
